@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\OnionArchApp.Application\OnionArchApp.Application.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\OnionArchApp.Persistence\OnionArchApp.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>

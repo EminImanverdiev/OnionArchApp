@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchApp.Persistence", "src\Infrastructure\OnionArchApp.Persistence\OnionArchApp.Persistence.csproj", "{85F37376-64A6-4431-B182-3A56CEDD1C05}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAPI", "WebAPI", "{C4A1B5AA-E1E0-4587-9B8B-D655812F8B4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArchApp.WebAPI", "src\WebAPI\OnionArchApp.WebAPI\OnionArchApp.WebAPI.csproj", "{EC5B9E55-E130-4E7D-A308-A6EC5B5E7DC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,10 @@ Global
 		{85F37376-64A6-4431-B182-3A56CEDD1C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85F37376-64A6-4431-B182-3A56CEDD1C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85F37376-64A6-4431-B182-3A56CEDD1C05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC5B9E55-E130-4E7D-A308-A6EC5B5E7DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC5B9E55-E130-4E7D-A308-A6EC5B5E7DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC5B9E55-E130-4E7D-A308-A6EC5B5E7DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC5B9E55-E130-4E7D-A308-A6EC5B5E7DC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +51,8 @@ Global
 		{E5A04CE2-C695-4D29-A795-7D38E1AE93C4} = {2AB07440-9D05-40F2-A620-684ADE0407F8}
 		{D8399BB1-B37E-499B-A88E-EA43D6003A7C} = {D8A2DB9A-463B-4750-92C3-322B9D224B66}
 		{85F37376-64A6-4431-B182-3A56CEDD1C05} = {D8399BB1-B37E-499B-A88E-EA43D6003A7C}
+		{C4A1B5AA-E1E0-4587-9B8B-D655812F8B4B} = {D8A2DB9A-463B-4750-92C3-322B9D224B66}
+		{EC5B9E55-E130-4E7D-A308-A6EC5B5E7DC1} = {C4A1B5AA-E1E0-4587-9B8B-D655812F8B4B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EF537D4F-BB68-410A-A7FF-3F1B132245B9}
